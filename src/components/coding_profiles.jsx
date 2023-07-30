@@ -107,7 +107,7 @@
 // *************************************************************************************************************88
 import React from "react";
 import GFG from "../images/gfg2.png";
-import Leetcode from "../images/Leetcode.png";
+import Leetcode from "../images/leetcode.png";
 import Codechef from "../images/codechef2.png";
 import Github from "../images/Github.png";
 import CodeStudio from "../images/codingNinjas.jpeg";

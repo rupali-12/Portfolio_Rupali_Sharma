@@ -10,7 +10,8 @@ const About = () => {
       className={`w-full h-screen ${
         darkMode
           ? "bg-gradient-to-t from-indigo-900 to-black text-white"
-          : "bg-gradient-to-b from-blue-200 to-blue-500 text-black"
+          : "bg-gradient-to-t from-black to-blue-500 text-white"
+        // : "bg-gradient-to-t from-blue-200 to-blue-500 text-black"
       }`}
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center items-center h-full">
@@ -21,13 +22,14 @@ const About = () => {
         </div>
         <h2 className="text-yellow-300 text-xl md:text-3xl font-semibold">
           {/* Grateful for your interest in my profile..!! */}
-          "Welcome to my profile! 
+          "Welcome to my profile!
           {/* Your interest is truly appreciated and  motivates me to go even further!" */}
         </h2>
         <h2 className="text-yellow-300 text-xl md:text-3xl font-semibold">
           {/* Grateful for your interest in my profile..!! */}
           {/* "Welcome to my profile!  */}
-          Your interest is truly appreciated and  motivates me to go even further!"
+          Your interest is truly appreciated and motivates me to go even
+          further!"
         </h2>
         <div className="text-gray-300 flex font-bold text-xl md:text-4xl mt-5">
           <p
@@ -40,7 +42,7 @@ const About = () => {
         </div>
         <p
           className={`text-gray-300 text-base md:text-xl mt-5 leading-7 max-w-lg ${
-            darkMode ? "text-white" : "text-gray-600"
+            darkMode ? "text-white" : "text-gray-200"
           }`}
         >
           Final-year Engineering student proficient in C++ and Java, with

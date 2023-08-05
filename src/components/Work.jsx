@@ -128,20 +128,24 @@ const Work = () => {
   return (
     <div
       name="work"
-      className={`w-full min-h-screen ${
-        darkMode ? "dark-theme" : "light-theme"
-      } bg-gradient-to-b ${
-        darkMode ? "from-indigo-900 to-black" : "from-blue-200 to-blue-500"
+      className={`w-full min-h-screen  bg-gradient-to-b ${
+        darkMode
+          ? "from-indigo-900 to-black"
+          : "from-black to-blue-500 text-white"
       } pt-20`}
     >
       <div className="max-w-screen-lg mx-auto p-4">
         <div className="pb-8 text-white flex flex-col justify-center items-center">
-          <h1 className="text-4xl md:text-5xl font-bold inline border-b-4 border-pink-700">
+          <h1
+            className={`text-4xl md:text-5xl font-bold inline border-b-4 border-pink-700 ${
+              darkMode ? "text-gray-400" : "text-black"
+            }`}
+          >
             Work
           </h1>
           <p
             className={`py-3 text-xl md:text-2xl text-center ${
-              darkMode ? "text-gray-400" : "text-black"
+              darkMode ? "text-gray-400" : "text-white"
             }`}
           >
             "Discovering My Projects: A Collection of My Coding Endeavors"

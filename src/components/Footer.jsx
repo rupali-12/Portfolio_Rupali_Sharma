@@ -6,8 +6,9 @@ const Footer = () => {
 
   return (
     <footer
-      className={`bg-gray-900 text-white py-4 ${
-        darkMode ? "text-white" : "text-black"
+      className={`bg-black text-white py-10 
+      ${
+        darkMode ? "text-white" : "text-white"
       }`}
     >
       <div className="container mx-auto flex justify-center items-center">

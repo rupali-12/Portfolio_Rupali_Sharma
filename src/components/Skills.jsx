@@ -15,7 +15,11 @@ const Skills = () => {
   return (
     <div
       name="skills"
-      className={`w-full h-screen ${darkMode ? "dark-theme" : "light-theme"}`}
+      className={`w-full h-screen ${
+        darkMode
+          ? "dark-theme"
+          : "bg-gradient-to-b from-black to-blue-500 text-white"
+      }`}
     >
       {/* Container  */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center items-center w-full h-full">

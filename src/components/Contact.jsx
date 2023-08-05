@@ -78,7 +78,8 @@ const Contact = () => {
       className={`w-full h-screen lg:h-full p-4 k flex justify-center items-center ${
         darkMode
           ? "bg-gradient-to-t from-indigo-900 to-black text-white"
-          : "bg-gradient-to-b from-blue-200 to-blue-500 text-black"
+          : "bg-gradient-to-t from-black to-blue-500 text-white"
+        // : "bg-gradient-to-t from-blue-200 to-blue-500 text-black"
       } pt-20`}
     >
       <form

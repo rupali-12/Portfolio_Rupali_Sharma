@@ -60,7 +60,10 @@ const Home = ({ showImage }) => {
   return (
     <div
       className={`relative w-full h-screen ${
-        darkMode ? "dark-theme" : "light-theme"
+        darkMode
+          ? "dark-theme"
+          : "bg-gradient-to-b from-black to-blue-500 text-white"
+        // "light-theme"
       }`}
     >
       {/* Container */}

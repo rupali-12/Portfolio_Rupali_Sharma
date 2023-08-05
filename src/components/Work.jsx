@@ -136,11 +136,7 @@ const Work = () => {
     >
       <div className="max-w-screen-lg mx-auto p-4">
         <div className="pb-8 text-white flex flex-col justify-center items-center">
-          <h1
-            className={`text-4xl md:text-5xl font-bold inline border-b-4 border-pink-700 ${
-              darkMode ? "text-gray-400" : "text-black"
-            }`}
-          >
+          <h1 className="text-4xl md:text-5xl font-bold inline border-b-4 border-pink-700">
             Work
           </h1>
           <p

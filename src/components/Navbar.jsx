@@ -17,9 +17,13 @@ import "../index.css";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const { darkMode, toggleTheme } = useTheme();
-  const handleClick = () => setNav(!nav);
+  const handleClick = () => {
+    setNav(!nav);
+  };
   return (
-    <div className="fixed w-full h-20 flex font-bold justify-between items-center px-4 bg-[black] text-gray-100">
+    <div
+      className={`fixed w-full h-20 flex font-bold justify-between items-center px-4 bg-[black] text-gray-100 z-20`}
+    >
       <div>
         <img
           src={Logo}
@@ -109,7 +113,7 @@ const Navbar = () => {
       </ul>
 
       {/* Social Icons */}
-      <div className="hidden lg:flex fixed flex-col top-[32%] left-2">
+      <div className="hidden lg:flex fixed flex-col top-[32%] left-2 z-20">
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-700">
             <a

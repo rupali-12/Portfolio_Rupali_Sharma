@@ -20,7 +20,14 @@ const About = () => {
           </p>
         </div>
         <h2 className="text-yellow-300 text-xl md:text-3xl font-semibold">
-          Grateful for your interest in my profile..!!
+          {/* Grateful for your interest in my profile..!! */}
+          "Welcome to my profile! 
+          {/* Your interest is truly appreciated and  motivates me to go even further!" */}
+        </h2>
+        <h2 className="text-yellow-300 text-xl md:text-3xl font-semibold">
+          {/* Grateful for your interest in my profile..!! */}
+          {/* "Welcome to my profile!  */}
+          Your interest is truly appreciated and  motivates me to go even further!"
         </h2>
         <div className="text-gray-300 flex font-bold text-xl md:text-4xl mt-5">
           <p

@@ -34,7 +34,7 @@
 /* index.css */
 .light-theme {
     /* @apply bg-gradient-to-b from-purple-400 to-blue-400; */
-    @apply bg-gradient-to-t from-blue-200 to-blue-500;
+    @apply bg-gradient-to-b from-blue-200 to-blue-500;
     /* color: black; */
 }
 
@@ -42,3 +42,6 @@
     @apply bg-gradient-to-b from-indigo-900 to-black;
     color: white;
 }
+
+
+

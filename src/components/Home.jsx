@@ -367,7 +367,7 @@ const Home = ({ showImage }) => {
       name="home"
       className={`relative w-full min-h-screen ${
         darkMode
-          ? "dark-theme bg-gradient-to-b from-black to-blue-500 text-white"
+          ? "dark-theme text-white"
           : "bg-gradient-to-b from-black to-blue-500 text-white"
       }`}
     >
@@ -376,7 +376,10 @@ const Home = ({ showImage }) => {
         <button
           onClick={toggleTheme}
           className={`px-4 py-2 rounded-full ${
-            darkMode ? "bg-pink-200 text-black" : "bg-gray-100 text-black"
+            darkMode
+              ? "bg-gradient-to-b from-gray-100 to-blue-600 text-black font-bold"
+              : "dark-theme text-gray-500 font-bold"
+            // darkMode ? "bg-pink-200 text-black" : "bg-gray-100 text-black"
           }`}
         >
           {darkMode ? "Light" : "Dark"} Mode
@@ -447,7 +450,7 @@ const Home = ({ showImage }) => {
         @media (max-width: 768px) {
           /* Styles for smaller screens */
           .home-content-wrapper {
-            padding-top: 80px; /* Adjust the padding-top for smaller screens */
+            padding-top: 80px;
           }
         }
       `}</style>

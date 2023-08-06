@@ -128,6 +128,17 @@ const About = () => {
           </h3>
         </p>
       </div>
+
+      <style jsx>{`
+        @media (max-width: 640px) {
+          /* Styles for smaller screens */
+          .text-xl,
+          .text-lg,
+          .text-base {
+            line-height: 1.2;
+          }
+        }
+      `}</style>
     </div>
   );
 };

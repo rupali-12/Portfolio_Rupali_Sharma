@@ -386,7 +386,7 @@ const Home = ({ showImage }) => {
       </div>
 
       <div className="max-w-screen-lg mx-auto flex flex-col md:flex-row justify-center items-center min-h-screen px-4">
-        <div className="flex flex-col justify-center w-full md:w-1/2 md:mr-8 mt-8 md:mt-0">
+        <div className="flex flex-col justify-center w-full md:w-1/2 md:mr-8 mt-8 md:mt-0 md:mb-0">
           <div className="home-content-wrapper">
             <p
               className={`text-pink-400 text-3xl ${

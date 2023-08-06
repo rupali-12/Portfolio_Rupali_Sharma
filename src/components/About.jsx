@@ -94,12 +94,12 @@ const About = () => {
             About Me
           </h1>
         </div>
-        <h2 className="text-yellow-300 text-xl md:text-3xl font-semibold mt-6">
+        <h2 className="text-yellow-300 text-xl md:text-3xl font-semibold mt-4">
           Grateful for your interest in my profile..!!
         </h2>
-        <div className="text-gray-300 flex font-bold text-xl md:text-4xl mt-5">
+        <div className="text-gray-300 flex font-bold text-xl md:text-4xl mt-3">
           <p
-            className={`text-gray-400 py-5 text-center ${
+            className={`text-gray-400 py-4 text-center ${
               darkMode ? "text-white" : "text-gray-800"
             }`}
           >
@@ -107,7 +107,7 @@ const About = () => {
           </p>
         </div>
         <p
-          className={`text-gray-300 text-base md:text-xl mt-5 leading-7 max-w-lg ${
+          className={`text-gray-300 text-base md:text-xl mt-2 leading-7 max-w-lg ${
             darkMode ? "text-white" : "text-gray-200"
           }`}
         >

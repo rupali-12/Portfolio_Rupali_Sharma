@@ -236,7 +236,7 @@ const Home = ({ showImage }) => {
             >
               Hello, I'm
             </p>
-            <h1 className="text-4xl sm:text-7xl font-bold text-white mt-2">
+            <h1 className="text-4xl sm:text-7xl font-bold text-white mt-2  sm:mt-8">
               Rupali Sharma
             </h1>
             <h2 className="text-4xl sm:text-4xl font-bold text-white mt-2">

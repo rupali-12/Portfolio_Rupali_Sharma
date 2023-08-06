@@ -386,7 +386,7 @@ const Home = ({ showImage }) => {
       </div>
 
       <div className="max-w-screen-lg mx-auto flex flex-col md:flex-row justify-center items-center min-h-screen px-4">
-        <div className="flex flex-col justify-center w-full md:w-1/2 md:mr-8 mt-20 md:mt-0">
+        <div className="flex flex-col justify-center w-full md:w-1/2 md:mr-8 mt-8 md:mt-0">
           <div className="home-content-wrapper">
             <p
               className={`text-pink-400 text-3xl ${
@@ -430,7 +430,6 @@ const Home = ({ showImage }) => {
           </div>
         </div>
 
-        {/* Image */}
         <div className="w-80 h-80 md:w-96 md:h-96 flex justify-center items-center relative z-0 mt-8 md:mt-0">
           <div className="relative w-80 h-80 md:w-96 md:h-96 overflow-hidden rounded-full border-4 border-white">
             <img

@@ -374,7 +374,7 @@ const Home = ({ showImage }) => {
       }`}
     >
       {/* Container */}
-      <div className="fixed right-4 top-24 z-10">
+      <div className="fixed right-4 top-24 z-20">
         <button
           onClick={toggleTheme}
           className={`px-4 py-2 rounded-full ${
@@ -385,7 +385,7 @@ const Home = ({ showImage }) => {
         </button>
       </div>
 
-      <div className="max-w-screen-lg mx-auto flex flex-col justify-center items-center min-h-screen px-4 md:flex-row z-10">
+      <div className="max-w-screen-lg mx-auto flex flex-col md:flex-row justify-center items-center min-h-screen px-4">
         <div className="flex flex-col justify-center w-full md:w-1/2 md:mr-8 mt-20 md:mt-0">
           <div className="home-content-wrapper">
             <p
@@ -395,7 +395,7 @@ const Home = ({ showImage }) => {
             >
               Hello, I'm
             </p>
-            <h1 className="text-4xl sm:text-7xl font-bold text-white mt-2 ">
+            <h1 className="text-4xl sm:text-7xl font-bold text-white mt-2">
               Rupali Sharma
             </h1>
             <h2 className="text-4xl sm:text-4xl font-bold text-white mt-2">

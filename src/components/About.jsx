@@ -89,17 +89,17 @@ const About = () => {
         </button>
       </div>
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center items-center h-full">
-        <div className="pb-8 mt-12 flex justify-center">
+        <div className="pb-4 mt-8 flex justify-center">
           <h1 className="text-4xl md:text-6xl font-bold text-white border-b-4 border-pink-700">
             About Me
           </h1>
         </div>
-        <h2 className="text-yellow-300 text-xl md:text-3xl font-semibold mt-4">
+        <h2 className="text-yellow-300 text-xl md:text-3xl font-semibold mt-2">
           Grateful for your interest in my profile..!!
         </h2>
-        <div className="text-gray-300 flex font-bold text-xl md:text-4xl mt-3">
+        <div className="text-gray-300 flex font-bold text-xl md:text-4xl mt-2">
           <p
-            className={`text-gray-400 py-4 text-center ${
+            className={`text-gray-400 py-2 text-center ${
               darkMode ? "text-white" : "text-gray-800"
             }`}
           >
@@ -107,7 +107,7 @@ const About = () => {
           </p>
         </div>
         <p
-          className={`text-gray-300 text-base md:text-xl mt-2 leading-7 max-w-lg ${
+          className={`text-gray-300 text-base md:text-xl mt-2 leading-6 max-w-lg ${
             darkMode ? "text-white" : "text-gray-200"
           }`}
         >
@@ -121,9 +121,9 @@ const About = () => {
           in seminars and workshops to enhance my skills. And I find joy in
           reading books and playing badminton in my leisure time.
         </p>
-        <p className="text-gray-300 text-base md:text-xl mt-7">
+        <p className="text-gray-300 text-base md:text-xl mt-5">
           Let's connect:
-          <h3 className="text-yellow-300 text-xl md:text-3xl font-bold mt-4">
+          <h3 className="text-yellow-300 text-xl md:text-3xl font-bold mt-2">
             rupalisharma1009@gmail.com
           </h3>
         </p>

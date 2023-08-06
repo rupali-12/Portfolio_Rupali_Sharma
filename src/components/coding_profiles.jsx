@@ -27,7 +27,7 @@ const CodingProfiles = () => {
           </p>
           <p
             className={`py-3 text-xl md:text-2xl text-center ${
-              darkMode ? "text-gray-400" : "text-black"
+              darkMode ? "text-gray-400" : "text-white"
             }`}
           >
             "Unraveling the Code: Exploring My Coding Endeavors"

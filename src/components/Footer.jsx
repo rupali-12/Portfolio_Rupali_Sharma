@@ -31,7 +31,7 @@
 //           <a href="https://github.com/rupali-12">
 //             <GitHubIcon className="text-white text-xl hover:text-gray-400" />
 //           </a>
-          
+
 //         </div>
 //       </div>
 //     </footer>
@@ -39,7 +39,6 @@
 // };
 
 // export default Footer;
-
 
 // import React from "react";
 // import { useTheme } from "./ThmeContext";
@@ -81,17 +80,6 @@
 // };
 
 // export default Footer;
-
-
-
-
-
-
-
-
-
-
-
 
 import React from "react";
 import { useTheme } from "./ThmeContext";

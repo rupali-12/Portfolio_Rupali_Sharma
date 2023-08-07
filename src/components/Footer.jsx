@@ -93,7 +93,7 @@ const Footer = () => {
 
   return (
     <footer
-      className={`bg-black text-white py-6 ${
+      className={`bg-black text-white py-4 ${
         darkMode ? "text-white" : "text-white"
       }`}
     >

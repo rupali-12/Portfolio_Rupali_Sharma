@@ -87,7 +87,7 @@ const CodingProfiles = () => {
               </p>
             </div>
           </a>
-          <a href="/">
+          <a href="https://www.codingninjas.com/studio/profile/b6be3faf-e2b8-4ca8-82dd-fcef5f6bec1f">
             <div className="shadow-md shadow-orange-300 hover:scale-110 duration-500">
               <img
                 className="w-16 md:w-20 mx-auto"

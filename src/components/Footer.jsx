@@ -17,7 +17,7 @@ const Footer = () => {
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-center md:justify-between">
         <div className="flex flex-col items-center md:items-start mb-4 md:mb-0 md:text-xl md:mr-8">
           <div className="flex justify-center md:justify-start space-x-3 md:space-x-8">
-            <a href="https://web.whatsapp.com/">
+            <a href="http://wa.me/+916396882689">
               <WhatsAppIcon className="text-white text-3xl md:text-xl hover:text-gray-400" />
             </a>
             <a href="https://instagram.com/ms_rupali__?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D">

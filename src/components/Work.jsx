@@ -23,8 +23,8 @@ const Work = () => {
     {
       name: "EcommIndia",
       img: img3,
-      demoLink: "/",
-      codeLink: "/",
+      demoLink: "https://github.com/rupali-12/EcommIndia",
+      codeLink: "https://github.com/rupali-12/EcommIndia",
     },
   ];
 

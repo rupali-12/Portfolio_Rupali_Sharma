@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Picture from "../images/pic_1.png";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import { Link } from "react-scroll";
 import { useTheme } from "./ThmeContext";
 import "../index.css";
 

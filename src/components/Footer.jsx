@@ -83,10 +83,10 @@
 
 import React from "react";
 import { useTheme } from "./ThmeContext";
-import WhatsAppIcon from "@material-ui/icons/WhatsApp";
-import InstagramIcon from "@material-ui/icons/Instagram";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import GitHubIcon from "@material-ui/icons/GitHub";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from "@mui/icons-material/GitHub";
 
 const Footer = () => {
   const { darkMode } = useTheme();

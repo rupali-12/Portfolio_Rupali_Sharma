@@ -15,7 +15,7 @@ const CodingProfiles = () => {
       className={`w-full h-screen ${
         darkMode
           ? "bg-gradient-to-t from-indigo-900 to-black text-white"
-          : "bg-gradient-to-t from-black to-blue-500 text-white"
+          : "bg-gradient-to-t from-gray-700 to-blue-400 text-white"
         // : "bg-gradient-to-t from-blue-200 to-blue-500"
       }`}
     >

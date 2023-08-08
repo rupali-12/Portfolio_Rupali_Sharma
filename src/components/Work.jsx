@@ -131,7 +131,7 @@ const Work = () => {
       className={`w-full min-h-screen  bg-gradient-to-b ${
         darkMode
           ? "from-indigo-900 to-black"
-          : "from-black to-blue-500 text-white"
+          : " from-gray-700 to-blue-400 text-white"
       } pt-20`}
     >
       <div className="max-w-screen-lg mx-auto p-4">

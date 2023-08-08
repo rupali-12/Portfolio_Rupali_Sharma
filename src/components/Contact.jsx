@@ -10,7 +10,7 @@ const Contact = () => {
       className={`w-full h-screen lg:h-full p-4 k flex justify-center items-center ${
         darkMode
           ? "bg-gradient-to-t from-indigo-900 to-black text-white"
-          : "bg-gradient-to-t from-black to-blue-500 text-white"
+          : "bg-gradient-to-t from-gray-700 to-blue-400 text-white"
         // : "bg-gradient-to-t from-blue-200 to-blue-500 text-black"
       } pt-20`}
     >
@@ -25,7 +25,7 @@ const Contact = () => {
           </p>
           <p
             className={`py-3 text-xl md:text-2xl text-center ${
-              darkMode ? "text-gray-400" : "text-black"
+              darkMode ? "text-gray-400" : "text-white"
             }`}
           >
             Submit the form below or shoot me an email at{" "}

@@ -64,7 +64,7 @@ const Home = ({ showImage }) => {
       className={`relative w-full min-h-screen ${
         darkMode
           ? "dark-theme text-white"
-          : "bg-gradient-to-b from-black to-blue-500 text-white"
+          : "bg-gradient-to-b from-gray-700 to-blue-400 text-white"
       }`}
     >
       {/* Container */}
@@ -113,17 +113,33 @@ const Home = ({ showImage }) => {
               "The only limit to our realization of tomorrow will be our doubts
               of today."
             </p>
-            <Link
+            {/* <Link
               smooth
               duration={500}
-              onClick="https://drive.google.com/file/d/1Y1nSnaCBTOiu0TFLWoygIuGIyt3ew-z4/view"
+              href="https://drive.google.com/file/d/1Y1nSnaCBTOiu0TFLWoygIuGIyt3ew-z4/view"
+              // download={true}
+              className="group text-white w-fit px-6 py-2 my-2 flex items-center rounded-md bg-gradient-to-r from-pink-600 to-red-500 hover:from-yellow-400 hover:to-yellow-500 hover:text-gray-700 font-4xl"
+            >
+              <a href="https://drive.google.com/file/d/1Y1nSnaCBTOiu0TFLWoygIuGIyt3ew-z4/view">
+              Get Resume
+              </a>
+              <span className="group-hover:rotate-90 duration-300">
+                <HiArrowNarrowRight className="ml-1" />
+              </span>
+            </Link> */}
+            <a
+              smooth
+              duration={500}
+              href="https://drive.google.com/file/d/1alzzUPK0-bz0xEMPCb84OeJJvx7EBQe4/view?usp=drive_link"
+              // download={true}
+              target="_blank"
               className="group text-white w-fit px-6 py-2 my-2 flex items-center rounded-md bg-gradient-to-r from-pink-600 to-red-500 hover:from-yellow-400 hover:to-yellow-500 hover:text-gray-700 font-4xl"
             >
               Get Resume
               <span className="group-hover:rotate-90 duration-300">
                 <HiArrowNarrowRight className="ml-1" />
               </span>
-            </Link>
+            </a>
           </div>
         </div>
 

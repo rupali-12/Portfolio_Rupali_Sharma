@@ -18,7 +18,7 @@ const Skills = () => {
       className={`w-full h-screen ${
         darkMode
           ? "dark-theme"
-          : "bg-gradient-to-b from-black to-blue-500 text-white"
+          : "bg-gradient-to-b from-gray-700 to-blue-400 text-white"
       }`}
     >
       {/* Container  */}
@@ -29,7 +29,7 @@ const Skills = () => {
           </p>
           <p
             className={`py-3 text-xl md:text-2xl text-center ${
-              darkMode ? "text-gray-400" : "text-black"
+              darkMode ? "text-gray-400" : "text-white"
             }`}
           >
             "Embracing the Tech Stack: My Coding Arsenal"

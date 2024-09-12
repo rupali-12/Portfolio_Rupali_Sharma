@@ -7,7 +7,6 @@ Welcome to my portfolio! This project showcases a collection of my work as a sof
 - [Technologies Used](#technologies-used)
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Contributor](#contributor)
 - [Contact](#contact)
 

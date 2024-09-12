@@ -36,6 +36,6 @@ To get a local copy of the project, clone the repository:
 ### Rupali Sharma
 
 ## Contact
-Feel free to reach out to me:
-Name: Rupali Sharma
+Feel free to reach out to me:</br>
+Name: Rupali Sharma</br>
 GitHub: [Rupali Sharma's GitHub](https://github.com/rupali-12)

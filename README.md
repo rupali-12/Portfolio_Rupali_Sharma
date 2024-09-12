@@ -31,10 +31,8 @@ This portfolio is built using the following technologies:
 
 To get a local copy of the project, clone the repository:
 
-```bash
-git clone [Github_Link](https://github.com/rupali-12/your-portfolio.git)
-
 ## Contributor
+
 ### Rupali Sharma
 
 ## Contact

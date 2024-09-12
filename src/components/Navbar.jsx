@@ -134,7 +134,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#B4F8C8]">
             <a
               className="flex justify-between items-center w-full text-black"
-              href="mailto:rupalisharma1009@gmail.com"
+              href="mailto:rupalisha1711@gmail.com"
             >
               Email <HiOutlineMail size={30} />
             </a>
@@ -159,7 +159,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#98cc82]">
             <a
               className="flex justify-between items-center w-full text-black"
-              href="http://wa.me/+916396882689"
+              href="http://wa.me/+91"
             >
               Whatsapp <FaWhatsapp size={30} />
             </a>

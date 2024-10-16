@@ -119,7 +119,7 @@ const Home = ({ showImage }) => {
               // download={true}
               className="group text-white w-fit px-6 py-2 my-2 flex items-center rounded-md bg-gradient-to-r from-pink-600 to-red-500 hover:from-yellow-400 hover:to-yellow-500 hover:text-gray-700 font-4xl"
             >
-              <a href="https://drive.google.com/file/d/1Y1nSnaCBTOiu0TFLWoygIuGIyt3ew-z4/view">
+              <a href="https://drive.google.com/file/d/1XUJDMwGXKloDeaOJ4cdwH-bFVZw8IRto/view?usp=sharing">
               Get Resume
               </a>
               <span className="group-hover:rotate-90 duration-300">

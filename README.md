@@ -2,6 +2,10 @@
 
 Welcome to my portfolio! This project showcases a collection of my work as a software developer. Here, you will find various projects that reflect my skills and passion for creating user-friendly applications.
 
+#### Live Link
+
+[Portfolio- Rupali Sharma](https://portfolio-rupali-sharma-2gj1.vercel.app/)
+
 ## Table of Contents
 
 - [Technologies Used](#technologies-used)
@@ -35,6 +39,7 @@ To get a local copy of the project, clone the repository:
 ### Rupali Sharma
 
 ## Contact
+
 Feel free to reach out to me:</br>
 Name: Rupali Sharma</br>
 GitHub: [Rupali Sharma's GitHub](https://github.com/rupali-12)

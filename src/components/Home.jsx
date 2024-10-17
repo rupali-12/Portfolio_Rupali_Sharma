@@ -112,24 +112,11 @@ const Home = ({ showImage }) => {
               "The only limit to our realization of tomorrow will be our doubts
               of today."
             </p>
-            {/* <Link
-              smooth
-              duration={500}
-              href="https://drive.google.com/file/d/1Y1nSnaCBTOiu0TFLWoygIuGIyt3ew-z4/view"
-              // download={true}
-              className="group text-white w-fit px-6 py-2 my-2 flex items-center rounded-md bg-gradient-to-r from-pink-600 to-red-500 hover:from-yellow-400 hover:to-yellow-500 hover:text-gray-700 font-4xl"
-            >
-              <a href="https://drive.google.com/file/d/1XUJDMwGXKloDeaOJ4cdwH-bFVZw8IRto/view?usp=sharing">
-              Get Resume
-              </a>
-              <span className="group-hover:rotate-90 duration-300">
-                <HiArrowNarrowRight className="ml-1" />
-              </span>
-            </Link> */}
+
             <a
               smooth
               duration={500}
-              href="https://drive.google.com/file/d/1P4MIrEEIMmjW0wk9fhEo1eXvPfwcVnOy/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1XUJDMwGXKloDeaOJ4cdwH-bFVZw8IRto/view?usp=sharing"
               // download={true}
               target="_blank"
               className="group text-white w-fit px-6 py-2 my-2 flex items-center rounded-md bg-gradient-to-r from-pink-600 to-red-500 hover:from-yellow-400 hover:to-yellow-500 hover:text-gray-700 font-4xl"

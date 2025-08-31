@@ -1,18 +1,13 @@
-import React from "react";
-import { useTheme } from "./ThmeContext";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 
 const Footer = () => {
-  const { darkMode } = useTheme();
 
   return (
     <footer
-      className={`bg-black text-white py-4 ${
-        darkMode ? "text-white" : "text-white"
-      }`}
+      className="bg-black text-white py-4" 
     >
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-center md:justify-between">
         <div className="flex flex-col items-center md:items-start mb-4 md:mb-0 md:text-xl md:mr-8">

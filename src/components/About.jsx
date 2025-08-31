@@ -1,80 +1,74 @@
-import React from "react";
-import { useTheme } from "./ThmeContext";
+import { motion } from "framer-motion";
 import "../index.css";
 
 const About = () => {
-  const { darkMode, toggleTheme } = useTheme();
-
   return (
     <div
       name="about"
-      className={`w-full min-h-screen ${
-        darkMode
-          ? "bg-gradient-to-t from-indigo-900 to-black text-white"
-          : "bg-gradient-to-t from-gray-700 to-blue-400 text-white"
-      }`}
+      className="w-full min-h-screen flex flex-col items-center justify-center px-4 sm:px-6 md:px-12 lg:px-24 py-16 bg-gradient-to-t from-indigo-900 to-black text-white"
     >
-      <div className="fixed top-4 right-4 z-10">
-        <button
-          onClick={toggleTheme}
-          className={`px-4 py-2 rounded-full ${
-            darkMode ? "bg-pink-200 text-black" : "bg-gray-100 text-black"
-          }`}
+      <div className="max-w-screen-lg w-full text-center relative">
+        {/* Heading */}
+        <motion.h1
+          initial={{ opacity: 0, y: -50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+          className="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-3 relative inline-block"
         >
-          {darkMode ? "Light" : "Dark"} Mode
-        </button>
-      </div>
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center items-center h-full">
-        <div className="pb-4 mt-8 flex justify-center">
-          <h1 className="text-4xl md:text-6xl font-bold text-white border-b-4 border-pink-700">
+          <span className="relative z-10 bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 to-pink-500">
             About Me
-          </h1>
-        </div>
-        <h2 className="text-yellow-300 text-xl md:text-3xl font-semibold mt-2">
-          Grateful for your interest in my profile..!!
-        </h2>
-        <div className="text-gray-300 flex font-bold text-xl md:text-4xl mt-2">
-          <p
-            className={`text-gray-400 py-2 text-center ${
-              darkMode ? "text-white" : "text-gray-800"
-            }`}
-          >
-            Hello, I'm Rupali Sharma
-          </p>
-        </div>
-        <p
-          className={`text-gray-300 text-base md:text-xl mt-2 leading-6 max-w-lg ${
-            darkMode ? "text-white" : "text-gray-200"
-          }`}
-        >
-          Final-year Engineering student proficient in C++ and Java, with
-          hands-on experience in full-stack web development using the MERN
-          Stack. Passionate about exploring Data Structures and Algorithms.
-          <br />
-          <br />
-          Outside of my academic pursuits, I enjoy engaging in meaningful
-          discussions and embracing diverse perspectives. I actively participate
-          in seminars and workshops to enhance my skills. And I find joy in
-          reading books and playing badminton in my leisure time.
-        </p>
-        <p className="text-gray-300 text-base md:text-xl mt-5">
-          Let's connect:
-          <h3 className="text-yellow-300 text-xl md:text-3xl font-bold mt-2">
-            rupalisharma1009@gmail.com
-          </h3>
-        </p>
-      </div>
+          </span>
+          <span className="absolute bottom-0 left-0 w-full h-1 sm:h-1.5 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full"></span>
+        </motion.h1>
 
-      <style jsx>{`
-        @media (max-width: 640px) {
-          /* Styles for smaller screens */
-          .text-xl,
-          .text-lg,
-          .text-base {
-            line-height: 1.2;
-          }
-        }
-      `}</style>
+        {/* Subtitle */}
+        <motion.h2
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.3, duration: 1 }}
+          className="py-2 sm:py-3 text-base sm:text-xl md:text-2xl text-center text-gray-400 px-2 sm:px-0 break-words"
+        >
+          "Grateful for your interest in my profile..!!"
+        </motion.h2>
+
+        {/* About Card */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.9 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ delay: 0.6, duration: 1 }}
+          className="p-4 sm:p-6 md:p-10 rounded-2xl shadow-2xl backdrop-blur-md border max-w-2xl mx-auto bg-white/10 border-gray-700"
+        >
+          <p className="text-base sm:text-lg md:text-xl mb-4 md:mb-6 leading-relaxed text-gray-200 break-words">
+            Hello, I'm{" "}
+            <span className="font-bold text-yellow-300">Rupali Sharma</span>, a
+            Full Stack Developer skilled in MERN, Vue.js, and .NET, with
+            experience in SQL, MongoDB, and GraphQL. Passionate about
+            problem-solving through Data Structures and Algorithms.
+          </p>
+
+          <p className="text-sm sm:text-base md:text-lg leading-relaxed text-gray-300 break-words">
+            Outside of academics, I enjoy engaging in meaningful discussions,
+            participating in seminars and workshops, and embracing diverse
+            perspectives. I find joy in reading books and playing badminton in
+            my leisure time.
+          </p>
+
+          {/* Contact */}
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 1.2 }}
+            className="mt-6 md:mt-8"
+          >
+            <p className="text-base sm:text-lg md:text-xl font-semibold break-words">
+              Let's connect:
+            </p>
+            <h3 className="text-sm sm:text-xl md:text-3xl font-bold mt-1 sm:mt-2 text-gradient bg-gradient-to-r from-yellow-400 to-pink-400 bg-clip-text text-transparent break-words">
+              rupalisharma1009@gmail.com
+            </h3>
+          </motion.div>
+        </motion.div>
+      </div>
     </div>
   );
 };

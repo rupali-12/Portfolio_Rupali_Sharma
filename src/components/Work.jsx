@@ -1,12 +1,9 @@
-import React from "react";
-import img1 from "../images/port2.png";
+import img1 from "../images/portfolio.png";
 import img2 from "../images/project_2.png";
 import img3 from "../images/img3.png";
-import { useTheme } from "./ThmeContext";
+import { motion } from "framer-motion";
 
 const Work = () => {
-  const { darkMode } = useTheme();
-
   const projects = [
     {
       name: "Portfolio",
@@ -31,27 +28,26 @@ const Work = () => {
   return (
     <div
       name="work"
-      className={`w-full min-h-screen  bg-gradient-to-b ${
-        darkMode
-          ? "from-indigo-900 to-black"
-          : " from-gray-700 to-blue-400 text-white"
-      } pt-20`}
+      className={`w-full min-h-screen  bg-gradient-to-b from-indigo-900 to-black pt-20`}
     >
       <div className="max-w-screen-lg mx-auto p-4">
         <div className="pb-8 text-white flex flex-col justify-center items-center">
-          <h1 className="text-4xl md:text-5xl font-bold inline border-b-4 border-pink-700">
-            Work
-          </h1>
-          <p
-            className={`py-3 text-xl md:text-2xl text-center ${
-              darkMode ? "text-gray-400" : "text-white"
-            }`}
+          <motion.h1
+            initial={{ opacity: 0, y: -50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 }}
+            className="text-5xl md:text-6xl font-extrabold mb-3 relative inline-block"
           >
+            <span className="relative z-10 bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 to-pink-500">
+              Work
+            </span>
+            <span className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full"></span>
+          </motion.h1>
+          <p className="py-3 text-xl md:text-2xl text-center text-gray-400">
             "Discovering My Projects: A Collection of My Coding Endeavors"
           </p>
         </div>
 
-        {/* Projects */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <div

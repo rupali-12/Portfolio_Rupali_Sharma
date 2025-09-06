@@ -5,9 +5,9 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full min-h-screen flex flex-col items-center justify-center px-4 sm:px-6 md:px-12 lg:px-24 py-16 bg-gradient-to-t from-indigo-900 to-black text-white"
+      className="w-full min-h-screen flex flex-col items-center justify-center px-4 sm:px-6 md:px-12 lg:px-24 py-16 bg-gradient-to-t from-indigo-900 to-black text-white relative z-0"
     >
-      <div className="max-w-screen-lg w-full text-center relative">
+      <div className="max-w-screen-lg w-full text-center relative z-0">
         {/* Heading */}
         <motion.h1
           initial={{ opacity: 0, y: -50 }}
@@ -36,7 +36,7 @@ const About = () => {
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.6, duration: 1 }}
-          className="p-4 sm:p-6 md:p-10 rounded-2xl shadow-2xl backdrop-blur-md border max-w-2xl mx-auto bg-white/10 border-gray-700"
+          className="p-4 sm:p-6 md:p-10 rounded-2xl shadow-2xl backdrop-blur-md border max-w-2xl mx-auto bg-white/10 border-gray-700 relative z-0"
         >
           <p className="text-base sm:text-lg md:text-xl mb-4 md:mb-6 leading-relaxed text-gray-200 break-words">
             Hello, I'm{" "}

@@ -17,7 +17,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-20 flex justify-between items-center px-6 bg-black text-white">
+    <div className="fixed w-full h-20 flex justify-between items-center px-6 bg-black text-white z-50">
       <div className="text-4xl font-extrabold relative">
         <span
           className="
